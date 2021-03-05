@@ -1,0 +1,158 @@
+body {
+    background-color: lemonchiffon;
+    background-image: url(./img/naranja2.svg);
+    background-size: 22px 22px;
+    background-repeat: repeat-x;
+    background-position: 12em 12.5em;
+    
+}
+
+h1 {
+    margin-top: -0.3em;
+    text-align: center;
+    font-family: Akaya Kanadaka, cursive;
+    background-color: lightsalmon;
+    color: white;
+    padding-bottom: 1.8em;
+    padding-top: 1em;
+    
+    text-shadow: red 5px 2px;
+}
+
+ul {
+    background-color: yellow;
+    margin-top: -1.4em;
+    border: 1px solid red;
+    text-align: center;
+    height: 3em;
+    padding-top: 1.5em;
+    
+}
+
+li {
+   
+    list-style-type: none; 
+    display: inline;
+    border: 1px solid orangered;
+    margin: 5px;  
+    padding: 1px;
+    background-color: lightsalmon;
+    color: white;
+    font-weight: bold;
+}
+
+li:hover {
+    background-color: orangered;
+}
+
+p.uno {
+    text-align: center;
+    color: orangered;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 5px solid orangered;
+    height: 25%;
+    width: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    margin-left: 33%;
+    background-color: rgb(247, 179, 152);
+    margin-top: 1.3em;
+    z-index: 2;
+    position: relative;
+}
+
+p.dos {
+    text-align: justify;
+    color: orange;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 5px solid greenyellow;
+    height: 30%;
+    width: 25%;
+    background-color: yellow;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    top: -5em;
+    left: 10em;
+    letter-spacing: 3px;
+    position: relative; 
+    z-index: 1;
+}
+
+p.tres {
+    text-align: right;
+    color: orange;
+    font-size: 1.2em;
+    border: 5px solid rgb(48, 178, 230);
+    background-color: rgb(215, 238, 247);
+    height: 35%;
+    width: 30%;
+    padding-left: 1%;
+    padding-bottom: 9.5%;
+    top: -20em;
+    right: -60%;
+    position: relative;
+    z-index: 1;
+}
+
+p.dos:hover{
+    z-index: 2;
+}
+
+p.tres:hover {
+    z-index: 2;
+}
+hr.img {
+    background-image: url(./img/naranja2.svg);
+    background-repeat: repeat-x;
+    background-size: 50px 50px;
+    height: 5em;
+    margin-top: -15em;
+    border: none;
+}
+
+hr.vacio {
+    margin-top: -2em;
+    height: 3em;
+    background-color: lightsalmon;
+}
+
+p.footer {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    height: 2em;
+    margin-top: -1em;
+    padding-bottom: 0em;
+    padding-top: 20px;
+}
+
+a {
+    
+    margin: 5px;  
+    padding: 1px;
+    background-color: lightsalmon;
+    color: white;
+    font-weight: bold;
+}
+
+iframe {
+    margin-top: 1em;
+    float: left;
+}
+
+p.nosotros {
+    margin-top: 10%;
+    margin-right: 20%;
+    background-color: lightsalmon;
+    border-color: 1px solid salmon;
+    color: white;
+    height: 10em;
+    width: 60em;
+    padding: 0em;
+}
+
+
+
